@@ -16,9 +16,6 @@ portfolio-demo2/
 ├── assets/
 │   ├── icons/              # Favicons
 │   └── og-image.png        # Social share preview image
-├── resume/
-│   ├── resume.html         # Printable resume (Print → Save as PDF)
-│   └── Chaitanya_DataEngineer.docx
 ├── certificates/           # Put certificate PDFs/badges here
 ├── docs/                   # Notes, write-ups, case studies
 └── temp/                   # Scratch files (ignored by git)
@@ -27,9 +24,8 @@ portfolio-demo2/
 ## Customise
 
 1. ~~Replace `images/profile/profile.jpg` with your photo~~ Done. The current photo is 1120×1404 and about 1.5 MB. Shrinking it to roughly 600×600 and under 200 KB will make the page load faster.
-2. Search `index.html` and `resume/resume.html` for `example.com`, `yourprofile`, `yourusername` and put in your real email, LinkedIn and GitHub.
+2. Search `index.html` for `example.com`, `yourprofile`, `yourusername` and put in your real email, LinkedIn and GitHub.
 3. Edit the sample projects, employers, certifications and achievements to match your history.
-4. Optional: export `resume/resume.html` to PDF and link that instead.
 
 ## Preview locally
 
