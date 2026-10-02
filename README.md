@@ -26,8 +26,8 @@ portfolio-demo2/
 
 ## Customise
 
-1. Replace `images/profile/profile.jpg` with your photo (keep the same file name).
-2. Search `index.html` for `example.com`, `yourprofile`, `yourusername` and put in your real email, LinkedIn and GitHub.
+1. ~~Replace `images/profile/profile.jpg` with your photo~~ Done. The current photo is 1120×1404 and about 1.5 MB. Shrinking it to roughly 600×600 and under 200 KB will make the page load faster.
+2. Search `index.html` and `resume/resume.html` for `example.com`, `yourprofile`, `yourusername` and put in your real email, LinkedIn and GitHub.
 3. Edit the sample projects, employers, certifications and achievements to match your history.
 4. Optional: export `resume/resume.html` to PDF and link that instead.
 
@@ -37,14 +37,16 @@ Double-click `index.html`, or use the VS Code "Live Server" extension, or run `n
 
 ## Publish on GitHub Pages
 
-```
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/<your-username>/portfolio-demo2.git
-git push -u origin main
-```
-On GitHub: **Settings → Pages → Source: Deploy from a branch → `main` / root → Save**.
-The site appears at `https://<your-username>.github.io/portfolio-demo2/`.
-Then update the `canonical` and `og:` URLs in `index.html`.
+- Repository: https://github.com/gcpchaitanya79/portfolio-demo2 (branch `main`)
+- Live site: https://gcpchaitanya79.github.io/portfolio-demo2/ (once Pages is enabled)
+
+To turn on Pages, go to **Settings → Pages → Source: Deploy from a branch → `main` / root → Save**.
+
+To publish changes, run `git add . && git commit -m "..." && git push`. The site rebuilds automatically.
+
+The `canonical` and `og:` URLs in `index.html` still point to `yourusername.github.io`. Change them to `gcpchaitanya79.github.io`.
+
+## Recent changes
+
+- `fa6d3b5` Replaced the placeholder profile photo with a real photo.
+- `ce081e3` First version of the portfolio: hero, about, skills, projects, experience, certifications, achievements, contact, printable resume and GitHub Pages setup.
